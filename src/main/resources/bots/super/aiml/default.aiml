@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+ <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+        <li>Disculpa pero no comprendo tu pregunta pero puedo hablarte de los servicios que ofrecemos?. Escriba servicios por favor.</li>
+        <li>Disculpa pero no comprendo tu pregunta aunque puedo darte informacion acerca de nuestros planes de seguro?</li>
+        <li>Si tiene alguna petición, quejas, reclamos, sugerencias y denuncias?. Escriba reclamo por favor.</li>
+        <li>Disculpa pero no comprendo tu pregunta pero si requiere informacion sobre nuestros planes de seguros. Escriba servicios por favor.</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+       <pattern>como te llamas</pattern>
+        <template>
+			<random>
+				<li>me llamo FRANCISCO</li>
+				<li>FRANCISCO</li>
+			</random>
+        </template>
+  </category>
+  
+    <category>
+       <pattern>_ como te llamas</pattern>
+        <template>
+			<random>
+				<li>me llamo FRANCISCO</li>
+				<li>FRANCISCO</li>
+			</random>
+        </template>
+  </category>
+  
+    <category>
+       <pattern>como te llamas *</pattern>
+        <template>
+			<random>
+				<li>me llamo FRANCISCO</li>
+				<li>FRANCISCO</li>
+			</random>
+        </template>
+  </category>
+  
+    <category>
+       <pattern>_ como te llamas *</pattern>
+        <template>
+			<random>
+				<li>me llamo FRANCISCO</li>
+				<li>FRANCISCO</li>
+			</random>
+        </template>
+  </category>
+  
+  
+      <category>
+        <pattern>Servicios</pattern>
+        <template>En Atrios Seguros ofrecemos los siguientes servicios: <br/><br/>
+        -Talleres.<br/>
+        -Cristalerías.<br/>
+        -Clínicas.<br/>
+        -Aps y Centros Especiales.<br/>
+        -Proveedor de insumos médicos.<br/><br/>
+         Para mayor información dirigite a:
+         <a href="http://www.atrioseguros.com/tables.php?id=2" target="_blank"><font color="white">www.atrioseguros.com/clinicas</font></a>
+        </template>
+    </category>
+	
+	 <category>
+        <pattern>_ Servicios</pattern>
+        <template>En Atrios Seguros ofrecemos los siguientes servicios: <br/><br/>
+        -Talleres.<br/>
+        -Cristalerías.<br/>
+        -Clínicas.<br/>
+        -Aps y Centros Especiales.<br/>
+        -Proveedor de insumos médicos.<br/><br/>
+         Para mayor información dirigite a:
+         <a href="http://www.atrioseguros.com/tables.php?id=2" target="_blank"><font color="white">www.atrioseguros.com/clinicas</font></a>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>Servicios *</pattern>
+        <template>En Atrios Seguros ofrecemos los siguientes servicios: <br/><br/>
+        -Talleres.<br/>
+        -Cristalerías.<br/>
+        -Clínicas.<br/>
+        -Aps y Centros Especiales.<br/>
+        -Proveedor de insumos médicos.<br/><br/>
+         Para mayor información dirigite a:
+         <a href="http://www.atrioseguros.com/tables.php?id=2" target="_blank"><font color="white">www.atrioseguros.com/clinicas</font></a>
+        </template>
+	</category>
+	
+	 <category>
+        <pattern>_ Servicios *</pattern>
+        <template>En Atrios Seguros ofrecemos los siguientes servicios: <br/><br/>
+        -Talleres.<br/>
+        -Cristalerías.<br/>
+        -Clínicas.<br/>
+        -Aps y Centros Especiales.<br/>
+        -Proveedor de insumos médicos.<br/><br/>
+         Para mayor información dirigite a:
+         <a href="http://www.atrioseguros.com/tables.php?id=2" target="_blank"><font color="white">www.atrioseguros.com/clinicas</font></a>
+        </template>
+    </category>
+  
+    <category>
+        <pattern>Contactarlos</pattern>
+        <template>Puedes escribirnos a:<br/>
+                contacto@atrioseguros.com<br/>
+                o comunícate al 0212 629 81 98 <br/><br/>
+                Para más información dirigite a:
+                <a href="https://www.atrioseguros.com/contacto.php" target="_blank"><font color="white">www.atrioseguros.com/contacto</font></a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ Contactarlos</pattern>
+        <template>Puedes escribirnos a:<br/>
+                contacto@atrioseguros.com<br/>
+                o comunícate al 0212 629 81 98 <br/><br/>
+                Para más información dirigite a:
+                <a href="https://www.atrioseguros.com/contacto.php" target="_blank"><font color="white">www.atrioseguros.com/contacto</font></a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Contactarlos *</pattern>
+        <template>Puedes escribirnos a:<br/>
+                contacto@atrioseguros.com<br/>
+                o comunícate al 0212 629 81 98 <br/><br/>
+                Para más información dirigite a:
+                <a href="https://www.atrioseguros.com/contacto.php" target="_blank"><font color="white">www.atrioseguros.com/contacto</font></a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ Contactarlos *</pattern>
+        <template>Puedes escribirnos a:<br/>
+                contacto@atrioseguros.com<br/>
+                o comunícate al 0212 629 81 98 <br/><br/>
+                Para más información dirigite a:
+                <a href="https://www.atrioseguros.com/contacto.php" target="_blank"><font color="white">www.atrioseguros.com/contacto</font></a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Reclamo</pattern>
+        <template>Indíqueme que tipo de reclamos desea realizar?<br/>
+        -Reclamos de salud?<br/>
+        -Reclamos de vehiculo?
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ Reclamo</pattern>
+        <template>Indíqueme que tipo de reclamos desea realizar?<br/>
+        -Reclamos de salud?<br/>
+        -Reclamos de vehiculo?
+       </template>
+    </category>
+
+    <category>
+        <pattern>Reclamo *</pattern>
+        <template>Indíqueme que tipo de reclamos desea realizar?<br/>
+        -Reclamos de salud?<br/>
+        -Reclamos de vehiculo?
+       </template>
+    </category>
+
+    <category>
+        <pattern>_ Reclamo *</pattern>
+        <template>Indíqueme que tipo de reclamos desea realizar?<br/>
+        -Reclamos de salud?<br/>
+        -Reclamos de vehiculo?
+       </template>
+    </category>
+
+    <category>
+       <pattern>Siniestro</pattern>
+       <template>Indíqueme que tipo de reclamos desea realizar?<br/>
+       -Reclamos de salud?<br/>
+       -Reclamos de vehiculo?
+       </template>
+    </category>
+
+    <category>
+        <pattern>_ Siniestro</pattern>
+        <template>Indíqueme que tipo de reclamos desea realizar?<br/>
+        -Reclamos de salud?<br/>
+        -Reclamos de vehiculo?
+        </template>
+    </category>
+
+    <category>
+       <pattern>Siniestro *</pattern>
+       <template>Indíqueme que tipo de reclamos desea realizar?<br/>
+       -Reclamos de salud?<br/>
+       -Reclamos de vehiculo?
+       </template>
+    </category>
+
+    <category>
+        <pattern>_ Siniestro *</pattern>
+        <template>Indíqueme que tipo de reclamos desea realizar?<br/>
+        -Reclamos de salud?<br/>
+        -Reclamos de vehiculo?
+        </template>
+    </category>
+
+    <category>
+       <pattern>Salud</pattern>
+       <template>Para más información dirigete a:<br/>
+       <a href="http://salud.atrioseguros.com:8080/apex/f?p=295:LOGIN::::::" target="_blank"><font color="white">http://salud.atrioseguros.com</font></a>
+       </template>
+    </category>
+
+    <category>
+        <pattern>_ Salud</pattern>
+        <template>Para más información dirigete a:<br/>
+            <a href="http://salud.atrioseguros.com:8080/apex/f?p=295:LOGIN::::::" target="_blank"><font color="white">http://salud.atrioseguros.com</font></a>
+        </template>
+    </category>
+
+    <category>
+       <pattern>Salud *</pattern>
+       <template>Para más información dirigete a:<br/>
+           <a href="http://salud.atrioseguros.com:8080/apex/f?p=295:LOGIN::::::" target="_blank"><font color="white">http://salud.atrioseguros.com</font></a>
+       </template>
+    </category>
+
+    <category>
+        <pattern>_ Salud *</pattern>
+        <template>Para más información dirigete a:<br/>
+            <a href="http://salud.atrioseguros.com:8080/apex/f?p=295:LOGIN::::::" target="_blank"><font color="white">http://salud.atrioseguros.com</font></a>
+        </template>
+    </category>
+
+    <category>
+       <pattern>Vehiculo</pattern>
+       <template>Para más información dirigete a:<br/>
+       <a href="http://salud.atrioseguros.com:8080/apex/f?p=295:LOGIN::::::" target="_blank"><font color="white">http://salud.atrioseguros.com</font></a>
+       </template>
+    </category>
+
+    <category>
+        <pattern>_ Vehiculo</pattern>
+        <template>Para más información dirigete a:<br/>
+            <a href="http://salud.atrioseguros.com:8080/apex/f?p=295:LOGIN::::::" target="_blank"><font color="white">http://salud.atrioseguros.com</font></a>
+        </template>
+    </category>
+
+    <category>
+       <pattern>Vehiculo *</pattern>
+       <template>Para más información dirigete a:<br/>
+           <a href="http://salud.atrioseguros.com:8080/apex/f?p=295:LOGIN::::::" target="_blank"><font color="white">http://salud.atrioseguros.com</font></a>
+       </template>
+    </category>
+
+    <category>
+        <pattern>_ Vehiculo *</pattern>
+        <template>Para más información dirigete a:<br/>
+            <a href="http://salud.atrioseguros.com:8080/apex/f?p=295:LOGIN::::::" target="_blank"><font color="white">http://salud.atrioseguros.com</font></a>
+        </template>
+    </category>
+
+
+	
+</aiml>
